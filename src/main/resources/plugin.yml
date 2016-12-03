@@ -1,0 +1,10 @@
+name: BooleRegions
+version: ${project.version}
+main: com.gmail.pkr4mer.boole.plugin.BooleRegionPlugin
+author: Peter Kramer
+depend: [WorldEdit]
+commands:
+    clip:
+        aliases: [/clip,clipboard,/clipboard]
+        usage: //clip <list|select/load|copy/clone|save/store> [[owner:]id] [[owner:]id]
+        permission: booleregion.command
