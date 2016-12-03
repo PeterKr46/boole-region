@@ -233,6 +233,7 @@ public class ClipboardCommand implements CommandExecutor {
                     }
                 } catch (Exception e) {
                     player.sendMessage("§4ERROR: §c" + e.getMessage());
+                    success = true;
                 }
             }
         } else {
