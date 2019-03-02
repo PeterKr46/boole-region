@@ -1,6 +1,6 @@
 name: BooleRegions
-version: ${project.version}
-main: com.gmail.pkr4mer.boole.plugin.BooleRegionPlugin
+version: ${project.version}@${maven.build.timestamp}
+main: eu.saltyscout.booleregion.plugin.BooleRegionPlugin
 author: Peter Kramer
 depend: [WorldEdit]
 commands:
